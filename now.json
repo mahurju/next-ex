@@ -1,8 +1,10 @@
 {
   "version": 2,
+  "alias": "marucool-nextjs",
+  "name": "nextjs-test",
   "builds": [
     {
-      "src": "package.json",
+      "src": "next.config.js",
       "use": "@now/next"
     }
   ]
